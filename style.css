@@ -1,0 +1,68 @@
+body{
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+}
+.leftnav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.nav{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: 500;
+}
+.Tut{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+}
+.Ref{
+    padding: 10px;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.Ex{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+}
+.Cer{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+}
+.Tut:hover, .Ref:hover, .Ex:hover, .Cer:hover{
+    background-color: rgb(14, 153, 14);
+}
+.searchbar{
+    align-content: center;
+    margin-left: 30px;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+    padding: 8px;
+}
+.searchbar{
+    padding: 5px;
+}
+h1{
+    color: aqua;
+}
